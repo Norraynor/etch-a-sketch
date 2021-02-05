@@ -40,6 +40,7 @@ function GenerateNewGrid(){
     createSquareGridDivs(gridSize);
 }
 function setColor(e){
-    const newColor = "#"+Math.floor(Math.random()*16777215).toString(16);
+    const newColor = "rgb(0,0,0)";
     e.target.style.backgroundColor = newColor;
+    console.log(e.target.style.backgroundColor);
 }
